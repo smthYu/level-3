@@ -73,8 +73,7 @@ header a:active {
 
 .content-line_pro_solutions {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .carousel-inner {
@@ -98,13 +97,12 @@ header a:active {
 .visual_wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: 100%
+    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+    width: 100%;
 }
 
 .visual_wrapper img {
     width: 100%;
-    height: 50%;
 }
 
 .info {
@@ -120,7 +118,6 @@ header a:active {
 
 .info img {
     width: 100%;
-    height: 100%;
 }
 
 .content-line_complete_as {
@@ -330,4 +327,10 @@ footer img {
     height: 50px;
     float: right;
     padding: 0;
+}
+footer-block{
+    
+}
+h2{
+    font-size: 1.1em;
 }
