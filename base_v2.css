@@ -76,9 +76,9 @@ header a:active {
 }
 .v_line{
     display: grid;
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
-    width: 100%;
+    width: 100%;*/
 }
 .h_line_sub {
     display: grid;
@@ -113,4 +113,5 @@ footer {
 }
 footer div{
 	display: inline-block;
+	align: left;
 }
