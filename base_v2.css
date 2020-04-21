@@ -34,13 +34,22 @@ header a:active {
     font-size: medium;
     text-align: center;
     display: grid;
-    grid-template-columns: 250px repeat(auto-fit, minmax(125px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     margin-bottom: 0px;
 }
 .nav-item {
+	min-width: 125px;
     padding-top: 50px;
     padding-bottom: 50px;
 	background-color: #ffffff;
+}
+.nav-item:nth-child(1){
+	min-width: 250px;
+    grid-column: 1/3;
+	background-color: #1a1a1a;
+    font-size: 50px;
+    Line-height: 1;
+    padding-top: 13px;
 }
 .nav-item:nth-child(even){
 	background-color: #ececec;
@@ -49,6 +58,7 @@ header a:active {
 	background-color: #fede00;
 }
 .logo {
+	min-width: 250px;
     background-color: #1a1a1a;
     font-size: 50px;
     Line-height: 1;
@@ -72,7 +82,7 @@ header a:active {
 
 .h_line{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
 }
 .v_line{
     display: grid;
@@ -109,6 +119,7 @@ header a:active {
     background-color: black;
     color: #fff;
     border-color: #8e8e8e;
+	font-size: 0.7em;
 }
 footer {
     background-color: #fff;
