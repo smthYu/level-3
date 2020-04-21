@@ -96,3 +96,21 @@ header a:active {
     background-color: black;
     color: #fff;
 }
+.btn-group-vertical {
+    background-color: black;
+    display: grid;
+}
+.btn-group-vertical button {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    border-color: #8e8e8e;
+}
+footer {
+    background-color: #fff;
+    width: 100%;
+    color: #8e8e8e;
+}
+footer div{
+	display: inline-block;
+}
