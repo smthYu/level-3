@@ -89,6 +89,10 @@ header a:active {
     padding-right: 10px;
     background-color: #fff;
 }
+.info_text img {
+    border-radius: 100%;
+    width: 70%;
+}
 .yellow_bg {
     background-color: #fede00;
 }
