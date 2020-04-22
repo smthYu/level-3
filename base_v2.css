@@ -130,3 +130,17 @@ footer div{
 	display: inline-block;
 	align: left;
 }
+
+footer img {
+display: inline-block;
+float: right;
+width: 5%;
+}
+
+footer a {
+color: #8e8e8e;
+}
+                                                
+footer a:hover {
+color: black;
+}
