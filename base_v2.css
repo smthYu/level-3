@@ -37,11 +37,11 @@ header a:active {
     font-size: medium;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     margin-bottom: 0px;
 }
 .nav-item {
-	min-width: 125px;
+	min-width: 160px;
     padding-top: 50px;
     padding-bottom: 50px;
 	background-color: #ffffff;
@@ -79,7 +79,7 @@ header a:active {
 
 .h_line{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
 }
 .v_line{
     display: grid;
@@ -89,7 +89,7 @@ header a:active {
 }
 .h_line_sub {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(126px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160.1px, 1fr));
 }
 .info_text {
     padding: 10px;
@@ -116,11 +116,12 @@ header a:active {
     background-color: black;
     color: #fff;
     border-color: #8e8e8e;
-	font-size: 0.8em;
+	font-size: calc( (100vw - 320px)/(1920 - 320) * (14 - 10) + 10px);
 }
 footer {
     background-color: #fff;
     width: 100%;
+	min-width: 320px;
     color: #8e8e8e;
 	text-align: right;
 }
